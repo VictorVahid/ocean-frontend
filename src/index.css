@@ -69,9 +69,7 @@ button:focus-visible {
 }
 
 img {
-  size: 300px;
-  margin-top: 250px;
-  margin-bottom: 250px;
-  margin-left: 490px;
-  margin-right: 490px;
+  height: 250px;
+  width: 250px;
+
 }
