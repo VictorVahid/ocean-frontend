@@ -4,8 +4,20 @@
   padding: 2rem;
   text-align: center;
 }
-img {
-  height: 250px;
-  width: 250px;
 
+.card{
+  border: solid white 0.1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0.2rem 0.2rem white
+}
+
+.card > img {
+  border-radius: 1rem;
+  height: 15.6rem;
+  width: 15.6rem;
+}
+
+.card > h2{
+  font-size: 2rem;
 }
