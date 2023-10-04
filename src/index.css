@@ -67,3 +67,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+img {
+  size: 300px;
+  margin-top: 250px;
+  margin-bottom: 250px;
+  margin-left: 490px;
+  margin-right: 490px;
+}
