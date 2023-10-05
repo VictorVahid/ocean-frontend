@@ -11,7 +11,7 @@ function App() {
     imagemUrl:'https://static.wikia.nocookie.net/universocinematograficomarvel/images/3/31/Kate_Bishop_Character_Poster.jpg/revision/latest/scale-to-width-down/1000?cb=20220628042411&path-prefix=pt'
   }
   const personagem3 = {
-    nome: 'Viúva Negra/Yelena Belova',
+    nome: 'Yelena Belova',
     imagemUrl:'https://static.wikia.nocookie.net/universocinematograficomarvel/images/5/52/Yelena_Belova.jpg/revision/latest?cb=20220712135207&path-prefix=pt'
   }
 
@@ -20,9 +20,12 @@ function App() {
 
   return (
     <>
-      {personagens.map(function(personagem) {
-        return <Card item={personagem} />
+    <div className="cards-list">
+      {personagens.map(function(qualquerCoisa) {
+        return <Card item={qualquerCoisa} />
       })}
+
+    </div>
     </>
   )
 }
