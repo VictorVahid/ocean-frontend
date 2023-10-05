@@ -1,10 +1,11 @@
 import './Card.css'
 
- export default function Card() {
+ export default function Card(props) {
+    const item = props.item;
     return(
         <div className="card">
-            <h2>Hawkeye</h2>
-            <img src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/f/f5/Hawkeye_Char_Poster.jpg/revision/latest?cb=20211118181820" />
+            <h2>{item.nome}</h2>
+            <img src={item.imagemUrl} />
         </div>
     )
 }
