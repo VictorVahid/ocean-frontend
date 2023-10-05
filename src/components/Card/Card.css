@@ -22,7 +22,7 @@
     border-left: 0.3rem solid rgb(107, 42, 151);
   }
 
-  .tag-list{
+  .tags-list{
     display: flex;
     justify-content: center;
     gap: 1rem;
