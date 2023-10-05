@@ -14,12 +14,12 @@ function App() {
   const personagem2 = {
     nome: 'Kate Bishop',
     imagemUrl:'https://static.wikia.nocookie.net/universocinematograficomarvel/images/3/31/Kate_Bishop_Character_Poster.jpg/revision/latest/scale-to-width-down/1000?cb=20220628042411&path-prefix=pt',
-    tags:["oi TINHA"]
+    tags:['Status:Vivo','Espécie:Humana','Origem: Terra']
   }
   const personagem3 = {
     nome: 'Yelena Belova',
     imagemUrl:'https://static.wikia.nocookie.net/universocinematograficomarvel/images/5/52/Yelena_Belova.jpg/revision/latest?cb=20220712135207&path-prefix=pt',
-    tags:["vadia sai da daqui sua puitaaaa"]
+    tags:['Status:Vivo','Espécie:Humana','Origem: Terra']
   }
 
   //array (usa-se [])
