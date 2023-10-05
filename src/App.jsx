@@ -21,9 +21,25 @@ function App() {
     imagemUrl:'https://static.wikia.nocookie.net/universocinematograficomarvel/images/5/52/Yelena_Belova.jpg/revision/latest?cb=20220712135207&path-prefix=pt',
     tags:['Status:Vivo','Espécie:Humana','Origem: Terra']
   }
+  const personagem4 = {
+    nome: 'Echo',
+    imagemUrl:'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/c2/Echo_Character_Poster.jpg/revision/latest?cb=20211209053238',
+    tags: ['Status:Vivo','Espécie:Humana','Origem: Terra']
+  }
+  const personagem5 = {
+    nome: 'Natasha Romanoff',
+    imagemUrl:'https://static.wikia.nocookie.net/universocinematograficomarvel/images/3/38/Nat_BW.jpg/revision/latest?cb=20211229224720&path-prefix=pt',
+    tags: ['Status:Vivo','Espécie:Humana','Origem: Terra']
+  }
+
+  const personagem6 = {
+    nome: 'Susan/Vespa',
+    imagemUrl:'https://static.wikia.nocookie.net/universocinematograficomarvel/images/2/22/Wasp_Quantumania.jpg/revision/latest?cb=20230121235142&path-prefix=pt',
+    tags: ['Status:Vivo','Espécie:Humana','Origem: Terra']
+  }
 
   //array (usa-se [])
-  const personagens = [personagem1,personagem2,personagem3]
+  const personagens = [personagem1,personagem2,personagem3,personagem4,personagem5,personagem6]
 
   return (
     <>
