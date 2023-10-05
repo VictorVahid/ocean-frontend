@@ -3,6 +3,7 @@
     border-radius: 0.5rem;
     padding: 1rem;
     transition: all 0.1s;
+    cursor: pointer;
 }
   
   .card:hover{
@@ -18,4 +19,14 @@
   
   .card > h2{
     font-size: 2rem;
+    border-left: 0.3rem solid rgb(107, 42, 151);
   }
+
+  .tag-list{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
